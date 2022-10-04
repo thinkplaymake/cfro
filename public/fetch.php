@@ -40,7 +40,7 @@
 
 
 
-    print file_get_contents('articles/work-with-us.html');
+    header("Location: /");
 
     
     
