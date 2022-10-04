@@ -1,0 +1,53 @@
+{% extends '_base.twig.html' %}
+{% block main %}
+
+
+    <style>
+        h1 { font-weight: 100; max-width: 900px; }
+        .inner { max-width: 600px; }
+
+        .offers { display: flex; flex-wrap: wrap; margin-top: 100px; margin-bottom: 100px; }
+        .offer { width: 100%; max-width: 450px; margin-right: 100px; margin-bottom: 50px; padding-bottom: 50px; border-bottom: 2px solid black; }
+        .price { margin-top: 15px; font-weight: bold;}
+    </style>
+    
+    <div class="container" id="article">
+        
+            
+        <h1>
+            <strong>{{article.metadata.title}}</strong><br/>
+            {{article.metadata.subtitle}}
+        </h1>
+        <div class="inner">
+            {{article.metadata.content|raw}}
+        </div>
+    
+
+        <div class="offers">
+            {% for offer in article.metadata.offers %}
+            <div class="offer">
+                <h2>{{offer.title}}</h2>
+                <div class="content">{{offer.body}}</div>
+                <div class="price">{{offer.price}}</div>
+            </div>
+            {% endfor %}
+        </div>
+
+
+        <section id="contactbox" class="contact">
+            <h2>Let's work better together</h2>
+            <p>We run regular audits for organisations to want to identify where and how they can work better together with freelancers.
+                Invite us in to get started.</p>
+    
+            <!-- Calendly link widget begin -->
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+            <a class="button" href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/thinkplaymakemeet/chief-freelance-officer-discovery-call'});return false;">Arrange Discovery Call</a>
+            <!-- Calendly link widget end -->
+    
+    
+        </section>
+
+        
+    </div>
+{% endblock %}

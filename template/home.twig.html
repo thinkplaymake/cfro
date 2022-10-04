@@ -1,0 +1,97 @@
+{% extends '_base.twig.html'%}
+{% block main %}
+
+
+<style>
+
+#hero h1 { font-weight: 400; margin-top: 100px; margin-bottom: 200px;}
+#hero h1 strong { display: block; }
+
+#featuredarticles { 
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#featuredarticles a { flex: 1 1 350px; margin-right: 15px; margin-bottom: 45px; }
+#featuredarticles a .image { height: 200px; background-size: cover; background-position: 50% 50%; margin-bottom: 15px; }
+
+#articles { display: flex; margin-top: 200px; flex-wrap: wrap; }
+#articles .articlelist { margin-bottom: 100px; width: 100%; max-width: 800px; padding-right: 100px; box-sizing: border-box; }
+#articles .articlelist h2 { margin-bottom: 30px; }
+#articles .articlelist a { display: block; margin-bottom: 30px; text-decoration: none; border-bottom: 1px solid rgba(0, 0, 0, 0.24); padding-bottom: 30px; }
+#articles .articlelist a:last-of-type { border-bottom: none; }
+#articles .articlelist a:hover strong { text-decoration: underline; }
+#articles .articlelist .collection { margin-bottom: 100px; }
+#articles .contact { max-width: 350px;}
+
+
+.button { border-radius: 30px; background: black; color:white; display :inline-block; padding: 15px; }
+
+</style>
+<section class="container" id="hero">
+
+    <h1>
+        <strong>work better together</strong>
+        with your freelancers
+    </h1>
+
+</section>
+
+
+<section class="container" id="featuredarticles">
+    <a href="/chief-freelance-officer-matthew-knight.html">
+        <div class="image" style="background-image: url(img/matthew-knight-chief-freelance-officer.webp);"></div>
+        Who is the Chief Freelance Officer?
+    </a>
+    <a href="/articles/why-working-better-together-with-freelancers-matters.html">
+        <div class="image" style="background-image: url(img/featured-bw-coworkers.webp);"></div>
+        Why working better together with freelancers is important
+    </a>
+    <a href="/articles/work-with-us.html">
+        <div class="image" style="background-image: url(img/featured-bw-working.webp);"></div>
+        How do we help organisations?
+    </a>
+</section>
+
+<section class="container" id="articles">
+    <section class="articlelist">
+
+        <div class="collection">
+            <h2>Guidance and Advice</h2>
+            {% for article in articles %}
+                {% if article.metadata.articletype.value == 'guide' %}
+                <a href="articles/{{article.slug}}.html"><strong>{{article.metadata.title}}</strong> - {{article.metadata.subtitle}}</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="collection">
+            <h2>Why it matters</h2>
+            {% for article in articles %}
+                {% if article.metadata.articletype.value == 'why' %}
+                <a href="articles/{{article.slug}}.html"><strong>{{article.metadata.title}}</strong> - {{article.metadata.subtitle}}</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+    </section>
+
+
+    <section class="contact">
+        <h2>Let's work better together</h2>
+        <p>We run regular audits for organisations to want to identify where and how they can work better together with freelancers.
+            Invite us in to get started.</p>
+
+        <!-- Calendly link widget begin -->
+        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <a class="button" href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/thinkplaymakemeet/chief-freelance-officer-discovery-call'});return false;">Arrange Discovery Call</a>
+        <!-- Calendly link widget end -->
+
+
+    </section>
+</section>
+
+
+{% endblock %}

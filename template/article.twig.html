@@ -1,0 +1,23 @@
+{% extends '_base.twig.html' %}
+{% block main %}
+
+
+    <style>
+        h1 { font-weight: 100; max-width: 900px; }
+        .inner { max-width: 600px; }
+        
+    </style>
+    
+    <div class="container" id="article">
+        
+            
+        <h1>
+            <strong>{{article.metadata.title}}</strong><br/>
+            {{article.metadata.subtitle}}
+        </h1>
+        <div class="inner">
+            {{article.metadata.content|raw}}
+        </div>
+    </div>
+
+{% endblock %}
