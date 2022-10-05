@@ -39,7 +39,7 @@
     file_put_contents('docs/index.html',$html);
 
 
-    print "done";
+    print $html;
 
 
     
