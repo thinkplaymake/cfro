@@ -1,6 +1,51 @@
 {
   "objects": [
     {
+      "slug": "getting-the-best-work-from-freelancers",
+      "title": "Getting the best work from freelancers",
+      "content": "",
+      "metadata": {
+        "title": "Getting the best work from freelancers.",
+        "subtitle": "Find the ways to work better together with extended workforce",
+        "content": "<p>Freelancers can often seem like they come at a price premium - but the value which working with freelancers brings can deliver higher ROI per project than a full time employee.&nbsp;</p><p>There&#39;s zero downtime, zero overheads, it&#39;s exactly the right person for the job, and independents are committed to doing work for you - if you create the right ways of working with your freelancers.&nbsp;</p><p>However, all too often, businesses neglect to put the correct structures in place, creating inefficiencies in finding, hiring, onboarding, briefing, collaborating, paying and maintaining relationships with trusted freelancers - making working with external independents more costly and less productive.&nbsp;</p><p>This inefficiency is often hidden - the best freelancers navigate the hurdles and gaps in order to deliver the best work they can, despite the cost and time savings more effective practices would deliver.&nbsp;</p><p>These gaps normally arise in organisations where there is little or no defined process for engaging freelancers - perhaps working with freelancers happens too infrequently to make it seem necessary; often it comes from rushing - and having little time to adequately support the external contractors; it can come from an incorrect understanding of how IR35 works or simply - no-one internally having time or knowing what might be useful.&nbsp;</p><p><br></p><p>As freelancers become more central and integrated to how businesses deliver work - not having policies and processes in place can lead to higher costs, longer timelines, lower quality work, or even an inability to hire freelancers again - 96% of freelancers would actively avoid working for clients who didn&#39;t support them to do their best work.</p><p>But where to start? What does it take to get the best from your freelancers, or build a network of trusted collaborators you can call upon?</p><p><br></p><p>The first step is an audit - to take stock of where you are today, what gaps and inefficiencies exist, and set a clear ambition for what your freelancer network could do for you.&nbsp;</p><p>From there, laser focus on removing hurdles and filling the strategic capability gaps makes your network robust and ready to activate.&nbsp;</p><p>Finally, a nurture and activation programme to grow your network and bring it closer to the heart of your business.&nbsp;</p><p><br></p><p>It won&#39;t be an overnight change - but investing in working better together with your extended network of talent delivers benefits beyond just cost.</p>",
+        "image": {
+          "url": "https://cdn.cosmicjs.com/4d296530-47b3-11ed-a3f1-f1a0ba7456eb-pexels-canva-studio-3194518.jpg",
+          "imgix_url": "https://imgix.cosmicjs.com/4d296530-47b3-11ed-a3f1-f1a0ba7456eb-pexels-canva-studio-3194518.jpg"
+        },
+        "is_featured": false,
+        "articletype": {
+          "key": "why",
+          "value": "why"
+        },
+        "templateoverride": "",
+        "downloadbox": {
+          "description": "",
+          "downloadkey": ""
+        },
+        "show_contactwidget": true
+      }
+    },
+    {
+      "slug": "the-unbundling-of-work",
+      "title": "The unbundling of work.",
+      "content": "",
+      "metadata": {
+        "title": "The unbundling of work",
+        "subtitle": "From centralised nodes to networked relationships.",
+        "content": "<p>Are we seeing the final unbundling of work?</p><p>Whilst the long tail of interconnected businesses who work together to bring us goods and services is not a new concept - each link in that chain, each supplier or provider, was in most ways encapsulated - the farmer owns the land and cattle, the mill owned the equipment and employees, the agency buys the laptops and hires the staff. Each unit would be a self-contained creator of something.</p><p>But we&#39;re increasingly seeing a shift further away from centralised ownership to decentralised coordination, reflected more and more in not just the progressive businesses, but also in the mainstream.</p><p><br></p><p>Employees are no longer tethered to a physical workplace.</p><p>People are no longer exclusive to a single employer.</p><p>Working hours are no longer fixed to the 9-5/M-F.</p><p>Employers are no longer restricted by a finite talent pool or obligation to provide work.</p><p>Workspaces no longer have a single occupant.</p><p>Teams no longer need to have a consistent shape over time.</p><p>Clients no longer need to be tied in to exclusive partners, or a single relationship to source their specialists.</p><p><br></p><p>The bundle of employer, employees, space, capabilities and relationships have shattered apart - and a new range of operating models, systems, platforms, opportunities and challenges have rushed in to fill the gaps.</p><p>And we&#39;re all feeling the growing pains - or at the very least, questioning how to adjust and redesign for what unbundled work looks like.</p><p><br></p><p>For freelancers, it feels like a huge new opportunity - a new openness to discovering and working with people who aren&#39;t already part of the team, means more businesses are investing in finding ways to build new extended workforces.</p><p>For businesses, it feels like a huge challenge, and without an active design process to pause and ask: &quot;What does the new shape of our workforce look like, and how do we work best with them?&quot;, the old models will be applied to the new models, and most likely fail - or at best, be harder work for poorer outcomes.</p><p>The unbundling of work means that where the cohesion and strength sits moves away from the elements in the supply chain, the entities, the organisations, the agencies, the employers - towards the connections, the networks. We need thicker, smarter, stronger well designed relationships, not just strong nodes.</p><p>We&#39;ll increasingly see services which offer these connections between nodes in the network - coworking spaces are places to assemble, talent platforms are ways to grow networks, communities are ways to strengthen those networks, and the emerging roles of people who help develop a strategy for designing and leveraging these networks - the space which I&#39;m inhabiting.</p><p>These networks take time to build, grow, develop and activate. You can&#39;t turn it on overnight. It requires proactive investment and nurturing. The businesses who saw this happening three years ago, are having successes now.&nbsp;</p><p>The unbundling is happening, whether you&#39;re engaged with it or not - and the organisations who don&#39;t take stock of what it means for their ways of working and total workforce, will find themselves even less able function in the next three years.</p>",
+        "image": {
+          "url": "https://cdn.cosmicjs.com/bfe18bb0-4624-11ed-962b-4d4cf7599074-alina-grubnyak-ZiQkhI7417A-unsplash.jpg",
+          "imgix_url": "https://imgix.cosmicjs.com/bfe18bb0-4624-11ed-962b-4d4cf7599074-alina-grubnyak-ZiQkhI7417A-unsplash.jpg"
+        },
+        "is_featured": false,
+        "articletype": {
+          "key": "why",
+          "value": "why"
+        },
+        "templateoverride": ""
+      }
+    },
+    {
       "slug": "why-organisations-need-new-internal-roles-to-support-freelancers",
       "title": "Why organisations need new internal roles to support freelancers",
       "content": "",
@@ -69,7 +114,12 @@
             "price": "FREE"
           }
         ],
-        "templateoverride": "workwithus.twig.html"
+        "templateoverride": "workwithus.twig.html",
+        "downloadbox": {
+          "description": "",
+          "downloadkey": ""
+        },
+        "show_contactwidget": true
       }
     },
     {
@@ -98,7 +148,7 @@
       "metadata": {
         "title": "Onboarding",
         "subtitle": "starting off strong",
-        "content": "<p><strong>Helping your freelancers get started on the best possible way helps you make best use of their time, helps them understand your business and ways of working, and helps everyone get stuck in to the work.</strong></p><p>Freelancers are often brilliant at figuring things out for themselves. They need to be, as often they have to navigate a new client organisation at the start of every project, and often they don&#39;t get any useful onboarding. Just imagine how much wasted time spent on figuring things out, rather than having a useful guide to help them.</p><p>Onboarding might seem like something you only do for your employees, but sharing some critical information about your company, your values, the work you do, how you work, who you work with, and the super important &nbsp;things that you freelancers really need to know like points of contact, useful resources, frequently asked questions, and even things like where the best lunch places are locally, all really help. Not just to work more effectively, but also to create a better relationship with your freelancers - and we know that freelancers who feel better supported are more likely to be open to working with you again.</p><p>You don&#39;t need to host an on-boarding session - you can automate the process to share information, you can provide it as a standard pack for every freelancer, and just make sure it&#39;s up to date every few months. And I&#39;ve created a template to help you get started, which lists the key sections we recommend to include, based upon insights from our community of thousands of freelancers.</p><p>If you&#39;re subscribed, the link to the onboarding template is below - if you&#39;re not already a follower, leave us your email address and we&#39;ll send you the template to get started.</p><p>If you&#39;d like more help on helping your business to work better together with freelancers, let me know - from free audits to building bespoke communities of freelancers, we are here to help.</p>",
+        "content": "<p><strong>Helping your freelancers get started on the best possible way helps you make best use of their time, helps them understand your business and ways of working, and helps everyone get stuck in to the work.</strong></p><p>Freelancers are often brilliant at figuring things out for themselves. They need to be, as often they have to navigate a new client organisation at the start of every project, and often they don&#39;t get any useful onboarding. Just imagine how much wasted time spent on figuring things out, rather than having a useful guide to help them.</p><p>Onboarding might seem like something you only do for your employees, but sharing some critical information about your company, your values, the work you do, how you work, who you work with, and the super important &nbsp;things that you freelancers really need to know like points of contact, useful resources, frequently asked questions, and even things like where the best lunch places are locally, all really help. Not just to work more effectively, but also to create a better relationship with your freelancers - and we know that freelancers who feel better supported are more likely to be open to working with you again.</p><p>You don&#39;t need to host an on-boarding session - you can automate the process to share information, you can provide it as a standard pack for every freelancer, and just make sure it&#39;s up to date every few months. And I&#39;ve created a template to help you get started, which lists the key sections we recommend to include, based upon insights from our community of thousands of freelancers.</p>",
         "image": {
           "url": "https://cdn.cosmicjs.com/4bf0d500-435c-11ed-8c64-7d07ad237bd8-jukan-tateisi-bJhT8nbUA0-unsplash.jpg",
           "imgix_url": "https://imgix.cosmicjs.com/4bf0d500-435c-11ed-8c64-7d07ad237bd8-jukan-tateisi-bJhT8nbUA0-unsplash.jpg"
@@ -107,7 +157,13 @@
         "articletype": {
           "key": "guide",
           "value": "guide"
-        }
+        },
+        "templateoverride": "",
+        "downloadbox": {
+          "description": "<p>We&#39;ve created an onboarding boilerplate to help any business get started with the basics.</p><p>A handy template to help you cover the key elements we recommend to include, and provides the absolute basics you should be sharing.</p>",
+          "downloadkey": "onboarding"
+        },
+        "show_contactwidget": false
       }
     },
     {
@@ -168,5 +224,5 @@
       }
     }
   ],
-  "total": 7
+  "total": 9
 }

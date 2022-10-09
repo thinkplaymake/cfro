@@ -26,7 +26,6 @@
 #articles .contact { max-width: 350px;}
 
 
-.button { border-radius: 30px; background: black; color:white; display :inline-block; padding: 15px; }
 
 </style>
 <section class="container" id="hero">
@@ -44,9 +43,9 @@
         <div class="image" style="background-image: url(img/matthew-knight-chief-freelance-officer.webp);"></div>
         Who is the Chief Freelance Officer?
     </a>
-    <a href="/articles/why-working-better-together-with-freelancers-matters.html">
+    <a href="/articles/getting-the-best-work-from-freelancers.html">
         <div class="image" style="background-image: url(img/featured-bw-coworkers.webp);"></div>
-        Why working better together with freelancers is important
+        How to get the best work from your freelancers
     </a>
     <a href="/articles/work-with-us.html">
         <div class="image" style="background-image: url(img/featured-bw-working.webp);"></div>
@@ -79,18 +78,9 @@
 
 
     <section class="contact">
-        <h2>Let's work better together</h2>
-        <p>We run regular audits for organisations to want to identify where and how they can work better together with freelancers.
-            Invite us in to get started.</p>
-
-        <!-- Calendly link widget begin -->
-        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-        <a class="button" href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/thinkplaymakemeet/chief-freelance-officer-discovery-call'});return false;">Arrange Discovery Call</a>
-        <!-- Calendly link widget end -->
-
-
+        {% include '_contactwidget.html' %}
     </section>
+
 </section>
 
 

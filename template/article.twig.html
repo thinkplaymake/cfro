@@ -5,6 +5,7 @@
     <style>
         h1 { font-weight: 100; max-width: 900px; }
         .inner { max-width: 600px; }
+        #article .content { margin-bottom: 100px;}
         
     </style>
     
@@ -15,9 +16,17 @@
             <strong>{{article.metadata.title}}</strong><br/>
             {{article.metadata.subtitle}}
         </h1>
-        <div class="inner">
+        <div class="inner content">
             {{article.metadata.content|raw}}
         </div>
+
+        {% if article.metadata.downloadbox.description %}
+        {% include '_downloadbox.twig.html' %}
+        {% else %}
+        {% include '_contactwidget.html' %}
+        {% endif %}
+
+        
     </div>
 
 {% endblock %}

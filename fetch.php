@@ -31,6 +31,7 @@
 
         file_put_contents ( "docs/articles/{$article['slug']}.html", $html );
 
+
     }
 
 

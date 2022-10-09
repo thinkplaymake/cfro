@@ -1,0 +1,66 @@
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <div class="downloadable" id="downloadbox">
+            
+            <div class="inner">
+                <img src="/img/cfro-logo.png" style="width: 60px; margin-bottom: 15px; border-bottom: 2px solid black; padding-bottom: 15px;;">
+                <h2>SUPPORT FROM THE CHIEF FREELANCE OFFICER</h2>
+
+                {{article.metadata.downloadbox.description | raw}}
+
+                <div class="thanks" style="display:none;">
+                    <strong>Thankyou</strong> - we've sent you an email with more details!
+                </div>
+
+                <div class="oops" style="display:none">
+                    <strong>There was a problem</strong> - perhaps <a href="mailto:hello@the.independency.co">contact us directly</a>.   
+                </div>
+
+                <form id="downloadform"
+                action="https://hooks.zapier.com/hooks/catch/2602813/b03kdsj/"
+                method="post"
+                >
+
+                <label for="email">
+                    <strong>Leave your email to access the resource</strong>
+                </label>
+                <input type="email" name="email" id="email" />
+                <div class="smaller">We never share your email address, and only contact you in relation to the Chief Freelance Officer.</div>
+                
+                <input type="hidden" name="downloadable" value="{{article.metadata.downloadbox.downloadkey}}">
+                <input type="submit" value="Access Resources" class="button" />
+                </form>
+            </div>
+            <script>
+
+                
+                $('.downloadable form').on('submit',function(e){
+                    e.preventDefault();
+                    email = $(this).find('input[name=email]').val();
+                    downloadable = $(this).find('input[name=downloadable]').val();
+                    url = 'https://hook.eu1.make.com/ui6zrjq71e0brbbsb24g2veqmony2208';
+                    data = { "email":email, "downloadable":downloadable };
+                    $.post(url, data, function( data, status, object ){
+                        if (status == 'success') { 
+                            formthanks();
+                        } else {
+                            formoops();
+                        }
+                    }).fail(function() {
+                        formoops();
+                    });
+                    return false;
+                });
+
+                function formthanks(){
+                    $('.downloadable form').hide();
+                    $('.downloadable .thanks').show();
+                }
+                function formoops(){
+                    $('.downloadable .oops').show();
+                }
+
+                
+                
+            </script>
+            
+        </div>

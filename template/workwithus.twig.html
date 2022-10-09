@@ -34,18 +34,8 @@
         </div>
 
 
-        <section id="contactbox" class="contact">
-            <h2>Let's work better together</h2>
-            <p>We run regular audits for organisations to want to identify where and how they can work better together with freelancers.
-                Invite us in to get started.</p>
-    
-            <!-- Calendly link widget begin -->
-            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-            <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-            <a class="button" href="#" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/thinkplaymakemeet/chief-freelance-officer-discovery-call'});return false;">Arrange Discovery Call</a>
-            <!-- Calendly link widget end -->
-    
-    
+        <section class="contact">
+            {% include '_contactwidget.html' %}
         </section>
 
         
