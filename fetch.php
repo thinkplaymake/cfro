@@ -39,8 +39,12 @@
     $html = $twig->render("home.twig.html", ['articles'=>$articles_data['objects']] );
     file_put_contents('docs/index.html',$html);
 
+    // copy about
+    $mk = file_get_contents('docs/articles/chief-freelance-officer-matthew-knight.html');
+    file_put_contents('docs/chief-freelance-officer-matthew-knight.html', $mk);
 
-    print $html;
+
+    print $mk;
 
 
     

@@ -1,6 +1,31 @@
 {
   "objects": [
     {
+      "slug": "mental-health-awareness-day-2022",
+      "title": "Mental Health Awareness Day 2022",
+      "content": "",
+      "metadata": {
+        "title": "Five things you can do all year round to support mental health for freelancers",
+        "subtitle": "",
+        "content": "<p>If you didn&#39;t include your freelancers in your content and comms yesterday for Mental Health Awareness Day yesterday, here are five things you can do today, to continue helping them all year round:<br><br>1/ Signpost and support - 66% of freelancers don&#39;t know where to find mental health support that is relevant to their way of working. Signpost to Leapers or any of the great organisations in your sector. Leapers can help you create a signposting page for free.<br><br>2/ Reduce your payment terms - at the very least, pay on time. Too many invoices are still paid late, and with automation and platforms which make it effortless, there&#39;s really no excuse, especially during a mental health and financial crisis period.<br><br>3/ Follow up and feedback - let your freelancers know about the positive impact their work had. It&#39;s rare to hear about how our work went on to help people or results, so a quick email after a project to let them know of any campaign results or customer feedback is always valued.<br><br>4/ Check-in - drop an email to your freelancers, ask how they&#39;re doing, share some updates from your company, and find out what they&#39;re up to. It can help you keep your list up to date, especially if people have moved on from freelancing, but more importantly, helps to keep a connection.<br><br>5/ Listen - ask your freelancers what they need. you might not be in a position to solve all their challenges, but being aware of them helps you build stronger relationships. you might discover they&#39;re not interested in wellbeing events at all, but would love to share a desk space, for example.<br><br>My mission is to help businesses do their best work with freelancers, and I&#39;m keen to chat with any businesses who hire freelancers, to find the gaps and opportunities. Drop me a note.</p>",
+        "image": {
+          "url": "https://cdn.cosmicjs.com/e0ce0190-4972-11ed-a3f1-f1a0ba7456eb-hannah-olinger-NXiIVnzBwZ8-unsplash.jpg",
+          "imgix_url": "https://imgix.cosmicjs.com/e0ce0190-4972-11ed-a3f1-f1a0ba7456eb-hannah-olinger-NXiIVnzBwZ8-unsplash.jpg"
+        },
+        "is_featured": false,
+        "articletype": {
+          "key": "guide",
+          "value": "guide"
+        },
+        "templateoverride": "",
+        "downloadbox": {
+          "description": "",
+          "downloadkey": ""
+        },
+        "show_contactwidget": true
+      }
+    },
+    {
       "slug": "getting-the-best-work-from-freelancers",
       "title": "Getting the best work from freelancers",
       "content": "",
@@ -86,7 +111,7 @@
           {
             "title": "AUDITING",
             "body": "We always recommend starting with a short audit - a rapid review of how you're currently working with freelancers designed to identify gaps and opportunities. You'll receive a report on our observations and recommendations.",
-            "price": "£1500 + VAT"
+            "price": "from £750 + VAT"
           },
           {
             "title": "ALUMNI",
@@ -173,7 +198,7 @@
       "metadata": {
         "title": "Who is the Chief Freelance Officer?",
         "subtitle": "Matthew Knight supports your organisation to work better together with freelancers",
-        "content": "<p>With over 25 years working in self-employment, leading agencies, working inside client businesses, building teams combining freelancers and employees, and founding the award winning freelancer community Leapers - Matthew Knight is the Chief Freelance Officer.</p><p>Matthew works with organisations who recognise that the future of their workforce combines freelancers, consultants, independent workers, external suppliers and their own employees - and want to work in the best possible way across each of these types of people.</p><p>Contact <a href=\"mailto:matthew@chieffreelanceofficer.co.uk\"></a><a href=\"//matthew@chieffreelanceofficer.co.uk\">matthew@chieffreelanceofficer.co.uk</a> to explore how he can help you work better together with independents.</p>",
+        "content": "<p>With over 25 years working in self-employment, leading agencies, working inside client businesses, building teams combining freelancers and employees, and founding the award winning freelancer community Leapers - Matthew Knight is the Chief Freelance Officer.</p><p>Matthew works with organisations who recognise that the future of their workforce combines freelancers, consultants, independent workers, external suppliers and their own employees - and want to work in the best possible way across each of these types of people.</p><p>Contact <a href=\"mailto:mk@the.independency.co\">mk@the.independency.co</a>&nbsp;<a href=\"mailto:matthew@chieffreelanceofficer.co.uk\"></a>to explore how he can help you work better together with independents.</p>",
         "image": {
           "url": "https://cdn.cosmicjs.com/974f6080-435b-11ed-8c64-7d07ad237bd8-matthew-knight.webp",
           "imgix_url": "https://imgix.cosmicjs.com/974f6080-435b-11ed-8c64-7d07ad237bd8-matthew-knight.webp"
@@ -182,7 +207,13 @@
         "articletype": {
           "key": "about",
           "value": "about"
-        }
+        },
+        "templateoverride": "whois.twig.html",
+        "downloadbox": {
+          "description": "",
+          "downloadkey": ""
+        },
+        "show_contactwidget": false
       }
     },
     {
@@ -224,5 +255,5 @@
       }
     }
   ],
-  "total": 9
+  "total": 10
 }

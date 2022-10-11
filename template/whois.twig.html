@@ -1,0 +1,41 @@
+{% extends '_base.twig.html' %}
+{% block main %}
+
+
+    <style>
+        h1 { font-weight: 100; max-width: 900px; }
+        .inner { max-width: 600px; }
+        #article .content { margin-bottom: 100px;}
+        
+        
+    </style>
+    
+    <div class="container" id="article">
+        
+            
+        <h1>
+            <strong>{{article.metadata.title}}</strong><br/>
+            {{article.metadata.subtitle}}
+        </h1>
+        <div class="inner content">
+            {{article.metadata.content|raw}}
+
+
+
+
+            <h2 style="margin-top: 50px">Matthew in the press</h2>
+            <img src="/img/press.png" style="max-width: 600px;">
+
+        </div>
+        
+
+        {% if article.metadata.downloadbox.description %}
+        {% include '_downloadbox.twig.html' %}
+        {% else %}
+        {% include '_contactwidget.html' %}
+        {% endif %}
+
+        
+    </div>
+
+{% endblock %}
