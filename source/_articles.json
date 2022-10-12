@@ -14,15 +14,16 @@
         },
         "is_featured": false,
         "articletype": {
-          "key": "guide",
-          "value": "guide"
+          "key": "blog",
+          "value": "blog"
         },
         "templateoverride": "",
         "downloadbox": {
           "description": "",
           "downloadkey": ""
         },
-        "show_contactwidget": true
+        "show_contactwidget": true,
+        "date_published": "2022-10-10"
       }
     },
     {

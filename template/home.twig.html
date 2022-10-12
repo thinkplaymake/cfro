@@ -74,6 +74,15 @@
             {% endfor %}
         </div>
 
+        <div class="collection">
+            <h2>Thoughts on Freelancing</h2>
+            {% for article in articles %}
+                {% if article.metadata.articletype.value == 'blog' %}
+                <a href="articles/{{article.slug}}.html">{{article.metadata.date_published|date("d M Y")}} - <strong>{{article.metadata.title}}</strong></a>
+                {% endif %}
+            {% endfor %}
+        </div>
+
     </section>
 
 
