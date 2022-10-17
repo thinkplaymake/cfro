@@ -294,7 +294,7 @@
       "content": "",
       "metadata": {
         "title": "Isolation and Freelancers",
-        "subtitle": "Why and how to support your independent workforce.",
+        "subtitle": "The role we can play in tackling loneliness and why it creates better work.",
         "content": "<p>Loneliness is <a href=\"https://www.campaigntoendloneliness.org/the-facts-on-loneliness/\">an epidemic in the UK</a> - and effects 25 million people across our country. It not only shortens life-spans but also reduces productivity, creativity and motivation. The shift in recent years to remote working and the effects of COVID have had a dramatic knock on effect to people feeling isolated - and a group of people that isolation can affect dramatically is the self-employed.</p><p>Indeed, it&#39;s a common assumption that freelancers will struggle with feelings of loneliness and isolation. Our <a href=\"https://www.leapers.co/resources/guide-to/dealing-with-loneliness-when-freelancing\">research shows that</a> over 70% have felt affected by isolation and loneliness when self-employed.</p><p>Often for those new to freelancing, the sudden shift to having a team around them, to shouldering the responsibility for everything - doing the work, accounting, new biz, marketing, admin, development, legals - can be a shock to the system.&nbsp;</p><p>Even established freelancers can feel disconnected and very much on their own - and the move to more organisations means often freelancers are not spending time in their clients offices as much.</p><p>The answer for those individuals is to build support networks - taking the time to join communities, create connections, and building their own team. Projects like <a href=\"https://leapers.co\">Leapers</a> exist to support freelancers creating support networks - and there are many communities who offer connection and support for independent workers across different sectors and categories.</p><p>As a client, you&#39;re also part of this team, and can also play a valuable role in supporting the freelancer in tackling isolation.</p><p>Clients can open their doors to their workspaces (I&#39;ve had a number of clients recently welcome me into their space - even though we&#39;re not working together currently).&nbsp;</p><p>Clients can create horizontal connections between their freelancers.&nbsp;</p><p>Clients can check-in and catch-up with their freelance alumni to see how things are going, or share updates on what impact a project they worked on together had.</p><p>Playing a support role provides multiple benefits for you as a client.&nbsp;</p><p>Firstly, the positive mental health of your independents directly relates to their productivity, quality of work, and ability to work.</p><p>Secondly, it creates a positive relationship between you and your extended workforce - freelancers are more likely to work again with clients who have supported them, and when building a network of trusted collaborators who you can work with again and again, this is essential.</p><p>Finally - it builds your reputation as a Freelance Friendly organisation, furthering your ability to attract and work with new independents who build your capabilities over time.</p><p>As a client - you play an important part in the support system of your freelancers, and working together effectively is an important part of your talent strategy as an organisation.</p>",
         "image": {
           "url": "https://cdn.cosmicjs.com/310bac90-4340-11ed-8c64-7d07ad237bd8-sasha-freemind-Pv5WeEyxMWU-unsplash.jpg",
@@ -302,9 +302,16 @@
         },
         "is_featured": false,
         "articletype": {
-          "key": "guide",
-          "value": "guide"
-        }
+          "key": "blog",
+          "value": "blog"
+        },
+        "templateoverride": "",
+        "downloadbox": {
+          "description": "",
+          "downloadkey": ""
+        },
+        "show_contactwidget": true,
+        "date_published": "2022-10-04"
       }
     }
   ],
