@@ -1,6 +1,33 @@
 {
   "objects": [
     {
+      "slug": "diamond-strategy-for-open-talent",
+      "title": "Diamond Strategy for Open Talent",
+      "content": "",
+      "metadata": {
+        "title": "The Four Sided Strategy for Open Talent",
+        "subtitle": "Balancing all four points creates an effective approach.",
+        "content": "<p><br></p><p>When I&#39;m working with organisations who are building open talent communities, it&#39;s a pretty common journey we take.&nbsp;</p><p>We always start with <strong>Ambition</strong>, intention or purpose - why do you want to build a bench of people? what do you want to be able to do with this group? Getting to the heart of the question helps to shape the initial direction, but also thinking down the line to what it could deliver over time is important.</p><p>Next <strong>Alumni and Attraction</strong> - understanding who you already have, where the gaps are, establishing inbound channels for building up an initial group of people to work alongside, as well as ensuring they&#39;re onboarded well.</p><p>Then <strong>Nurture</strong> - making sure the people in your group are well supported, have what they need to do great work with you, and the community continues to grow over time. This is as much about process and operations as it is engagement and support.</p><p>And <strong>Activation</strong> - what are the ways of bringing this group to life, how to make the very most of them, how to go beyond just throwing a brief into the mix, but also creating teams and sourcing insights from the crowd.</p><p><br></p><p>Whilst each part can be looked at individually, it&#39;s the most effective when considered holistically - as each piece interplays with the other.</p><p>A strategy without intention falls apart pretty quickly. An approach without identifying who you already have, the gaps, and plans for attracting new talent - creates inefficiencies. Forgetting the nurture aspect means the pool of people dwindle over time in quality and engagement. And without considering the full range of how to activate the community means you&#39;re missing out on value you&#39;ve built, and find the diamonds in your network</p>",
+        "image": {
+          "url": "https://cdn.cosmicjs.com/6f1cc620-6fd4-11ed-bac9-7fe1734a16aa-chuttersnap-sLUOsr4BoQA-unsplash.jpg",
+          "imgix_url": "https://imgix.cosmicjs.com/6f1cc620-6fd4-11ed-bac9-7fe1734a16aa-chuttersnap-sLUOsr4BoQA-unsplash.jpg"
+        },
+        "is_featured": false,
+        "articletype": {
+          "key": "blog",
+          "value": "blog"
+        },
+        "templateoverride": "",
+        "downloadbox": {
+          "description": "",
+          "downloadkey": ""
+        },
+        "show_contactwidget": false,
+        "date_published": "2022-11-13",
+        "ordinal": ""
+      }
+    },
+    {
       "slug": "freelance-friendly-mash",
       "title": "Freelance Friendly: Mash",
       "content": "",
@@ -447,5 +474,5 @@
       }
     }
   ],
-  "total": 17
+  "total": 18
 }
